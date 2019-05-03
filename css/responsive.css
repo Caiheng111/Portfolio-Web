@@ -1,0 +1,276 @@
+
+
+/* HOME PAGE */
+
+
+   
+
+@media (max-width:996px){
+    .home{
+        max-height: auto;
+        position: relative;
+        overflow:scroll;
+        box-sizing: border-box;
+    }
+        
+   
+    .title h5{
+        font-size: 12px;
+    }
+    .intro{
+        position: absolute;
+        top:180px;
+        left:-30px;
+      }
+    .intro .Words{
+        font-size: 35px;
+    }
+    .Words-line {
+        height: 45px;
+       
+      } 
+      .intro p {
+        height: 50px;
+        line-height: 50px;
+        
+      }
+    
+      
+     .home-icon{
+        position: fixed;;
+        top:450px;
+        left:-30px;
+      }
+      .home-icon a i{
+        font-size: 12px;
+      }
+
+      .navbar {
+        position: absolute;
+        top:10px;
+        left:260px;
+      }
+      .navbar a{
+        margin-top:20px;
+        display: block;
+        cursor: pointer;
+      }
+
+      .img{
+          position:absolute;
+          top:150px;
+          left:150px;
+      }
+      .img img{
+          visibility: hidden;
+      }
+      .img p{
+         visibility: hidden;
+      }
+      .img button{
+          font-size: 12px;
+      }
+
+
+
+      /* ABOUT PAGE */
+
+      .icon{
+        position:fixed;
+        top:450px;
+        left:20px;
+      }
+      .info {
+          position:absolute;
+          top:400px;
+          left:70px;
+      }
+
+      .info .info-item1 h1{
+        font-size: 20px;
+      }
+      .info h2{
+        font-size: 18px;
+      }
+      .info h4{
+          font-size: 16px;
+
+      }
+
+
+
+      .info .image{
+          position: absolute;
+         top:-250px;
+          left:10px; 
+      }
+      .info img{
+          height: 200px;
+      }
+
+
+
+      /* CONTACT PAGE */
+      .cintact-info{
+          position: relative;
+      }
+
+      .contact-info .information{
+        margin-top:50px;
+        margin-bottom:50px;
+        position: absolute;
+        top:100px;
+        left:-20px;
+    }
+
+      .contact-info .information h3,h5{
+          font-size: 16px;
+      }
+
+        .bg-image{
+        position: relative;
+        top:100px;
+        left:80px;
+      
+      }
+      
+      .bg-image img{
+        height: 150px;
+    
+      }
+
+      .contact-info .info-message{
+        position: absolute;
+        top:330px;
+        left:-20px;
+        margin-top: 50px;
+      }
+
+      .info-message input{
+          height: 30px;
+          width: 260px;
+      }
+      .info-message button{
+        position: absolute;
+        height: 30px;
+        width: 100px;
+        top:330px;
+        left:-150px;
+      }
+      .address-map{
+        margin-bottom:50px;
+        position: absolute;
+        top:780px;
+        left:-15px;
+      }
+      .address-map iframe{
+        width: 260px;
+        height: 280px;
+      }
+
+      
+
+
+      /* PROJECT PAGE */
+
+     .project-info{
+         position: relative;
+         top:-50px;
+     }
+     .project-info .item{
+         height: 380px;
+        max-width: 250px;
+        margin:30px 70px;
+    }
+    .project-info .item img{
+        width: 250px;
+        height: 180px;
+
+   }
+
+   .project button{
+       margin-left:120px;
+       width: 150px;
+       letter-spacing: 5px;
+   }
+
+
+
+     .project-info .item1{
+         position: absolute;
+     }
+     .project-info .item2{
+        position: absolute;
+        top:480px;
+
+    }
+    .project-info .item3{
+        position: absolute;
+        top:960px;
+
+    }
+    .project-info .item4{
+        position: absolute;
+        top:1440px;
+
+    }
+    .project-info .item5{
+        position: absolute;
+        top:1920px;
+
+    }
+
+
+
+
+    /* SKILL PAGE */
+
+    .skill-info{
+      position: absolute;
+      top:300px;
+      left:60px;
+      width: 300px;
+    }
+
+    .bar{
+      position: relative;
+      top:-30px;
+      left:60px;
+    }
+
+    .bar .line{
+      height: 20px;
+      min-width: 260px;
+      line-height: 25px;
+    }
+
+    .skill-ball{
+      position: relative;
+      top:500px;
+    }
+
+    .ball3{
+      height:90px;
+      width:90px;
+      position: relative;
+      top:390px;
+      left:20px;
+      
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
