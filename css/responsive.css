@@ -172,10 +172,18 @@
 
 
       /* PROJECT PAGE */
-
+      .project .title{
+        width: 300px;
+        position: relative;
+         top:10px;
+         left:-220px;
+         margin-bottom: 10px;
+         line-height: 25px;
+      }
      .project-info{
          position: relative;
-         top:-50px;
+         top:10px;
+         left:-140px;
      }
      .project-info .item{
          height: 380px;
@@ -227,14 +235,16 @@
 
     .skill-info{
       position: absolute;
-      top:300px;
+      top:380px;
       left:60px;
-      width: 300px;
+    }
+    .skill-item1{
+      width: 280px;
     }
 
     .bar{
       position: relative;
-      top:-30px;
+      top:120px;
       left:60px;
     }
 
@@ -254,8 +264,24 @@
       width:90px;
       position: relative;
       top:390px;
-      left:20px;
+      left:50px;
       
+    }
+
+    .skill-bg{
+      top:120px;
+      position: absolute;
+      left:20px;
+    }
+    .skill-bg img{
+      height: 300px;
+      width: 300px;
+      opacity: .8;
+     
+    }
+
+    .skill-ball{
+      visibility: hidden;
     }
 
 

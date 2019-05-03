@@ -1,5 +1,5 @@
 
-body,p{
+body,p,h1,h2,h3,h4,h5,h6{
   margin:0;
 }
 
@@ -204,7 +204,7 @@ img{
 
 .info h1{
   margin-top:15px;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 1000;
   font-family: 'Noto Sans JP', sans-serif;
   color: #F7F6F5;
@@ -252,21 +252,38 @@ img{
 /* SKILL PAGE */
 .skill-info{
   position: relative;
-  top:100px;
-  left:800px;
+  top:120px;
+  left:750px;
 }
-
-.skill-item1 h3{
+.skill-item1{
+  text-align: left;
+  width: 550px;
+  line-height: 25px;
   margin-top:10px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Noto Sans JP', sans-serif;
   color: #F7F6F5;
 }
+.skill-item1 h3{
+  margin:20px 0;
+}
+.skill-item1 span{
+  color: #F7F6F5;
+}
+.skill-item1 h2{
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#FF3E55;
+}
+
+
 
 
 .bar{
+  margin-top:50px;
+  margin-bottom: 50px;
   position: relative;
-  top:-550px;
+  top:-680px;
   left:100px;
   max-width: 70px;
 }
@@ -285,7 +302,7 @@ img{
   color:#FF3E55;
 }
 .bar .line{
-  height: 20px;
+  height: 7px;
   min-width: 500px;
   line-height: 25px;
   color:#FF3E55;
@@ -329,18 +346,21 @@ img{
 
 
 .line1:after{
-  max-width: 90%;
+  max-width: 80%;
 }
 .line2:after{
-  max-width: 50%;
+  max-width: 80%;
 }
 .line3:after{
   max-width: 70%;
 }
 .line4:after{
-  max-width: 70%;
+  max-width: 60%;
 }
 .line5:after{
+  max-width: 50%;
+}
+.line6:after{
   max-width: 60%;
 }
 
@@ -348,7 +368,8 @@ img{
 
 .skill-ball{
   position: relative;
-  bottom:30px;
+  bottom:100px;
+  left:250px;
 }
 
 
@@ -368,8 +389,8 @@ img{
   height: 80px;
   width: 80px;
   position: absolute;
-  top:350px;
-  left:100px;
+  top:320px;
+  left:250px;
   animation: floating 2s ease infinite;
 }
 
@@ -380,8 +401,8 @@ img{
   height: 100px;
   width: 100px;
   position: absolute;
-  top:400px;
-  left:250px;
+  top:420px;
+  left:350px;
   animation: floating 2s ease infinite;
   animation-delay: 1s;
 }
@@ -391,7 +412,7 @@ img{
   width:90px;
   position: relative;
   top:320px;
-  left:400px;
+  left:480px;
   animation: floating 2s ease infinite;
   animation-delay: 1.5s;
 }
@@ -400,7 +421,7 @@ img{
   width:70px;
   position: relative;
   top:380px;
-  left:500px;
+  left:530px;
   animation: floating 2s ease infinite;
   animation-delay: 2.5s;
 }
@@ -411,7 +432,7 @@ img{
   width:90px;
   position: relative;
   top:200px;
-  left:600px;
+  left:650px;
   animation: floating 2s ease infinite;
   animation-delay: 1.5s;
 }
@@ -432,7 +453,6 @@ img{
   padding-top:10px;
   box-sizing: border-box;
   position: relative;
-  
   left:900px;
   animation: floating 2s ease infinite;
   animation-delay: 1.5s;
@@ -467,6 +487,18 @@ img{
 }
 }
 
+.skill-bg{
+  top:450px;
+  position: absolute;
+  left:100px;
+}
+.skill-bg img{
+  height: 340px;
+  width: 400px;
+  opacity: .8;
+ 
+}
+
   
 
 
@@ -497,7 +529,7 @@ img{
   color:#FF3E55 !important;
 }
 .info-message{
-  margin-right:30px;
+  margin-right:50px;
 }
 
 
@@ -551,28 +583,45 @@ img{
 /* PACJECT PAGE */
 
 .project{
-  margin-top:150px;
+  margin-top:110px;
   cursor: pointer;
+}
+
+.project .title{
+  margin-left:120px;
+  margin-bottom:60px;
+  text-align: center;
+  width: 900px;
+}
+.project .title h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color:#F7F6F5;
+ 
 }
 .project .container{
   width: 1000px;
-  margin:0 auto;
+  margin-left:150px;
 }
 .project .project-info{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-   grid-column-gap: 2.5rem;
+   grid-column-gap: 2rem;
 }
 
 
 
 .item{ 
+  /* background-color: rgb(240, 237, 234); */
   text-align: center;
   border-radius: 6px;
   border:1px solid #F7F6F5;
 }
 .item img{
-  height: 130px;
+  width: 200px;
+  height: 140px;
+
 }
 
 
@@ -581,29 +630,40 @@ img{
   font-family: 'Noto Sans JP', sans-serif;
   letter-spacing: 2px;
   font-size: 13px;
-  color: #FF3E55;
+  color:#F7F6F5 ;
 }
 
 .project .item h2{
-  margin-top:20px;
-  font-family: 'Noto Sans JP', sans-serif;
-  letter-spacing: 2px;
-  font-size: 20px;
-  color: #F7F6F5;
-
-}
-.project .item p{
-  margin-bottom: 20px;
-  padding:10px;
+  line-height: 25px;
   margin-top:10px;
   font-family: 'Noto Sans JP', sans-serif;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 18px;
+  color: #FF3E55;
+
+}
+.project .item p{
+  padding:10px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #F7F6F5;
+}
+.project .item p span{
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
   color: #FF3E55;
 }
 
+.project a{
+  text-decoration: none;
+}
+
 .project button{
-  margin-left:40px;
+  margin-left:50px;
   margin-top:30px;
   outline:0;
   background:none;
@@ -617,11 +677,11 @@ img{
   border-radius: 3px;
 }
 
-.project-item:hover .item{
+/* .project-item:hover .item{
   transition: all .3s ease-in; 
   background-color: #FF3E55;
  
-}
+} */
 
 
 
