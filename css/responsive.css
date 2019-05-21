@@ -9,7 +9,8 @@
     .home{
         max-height: auto;
         position: relative;
-        overflow:scroll;
+        overflow-y:scroll;
+        overflow-x:hidden;
         box-sizing: border-box;
     }
         
@@ -56,11 +57,7 @@
         cursor: pointer;
       }
 
-      .img{
-          position:absolute;
-          top:150px;
-          left:150px;
-      }
+
       .img img{
           visibility: hidden;
       }
@@ -68,6 +65,9 @@
          visibility: hidden;
       }
       .img button{
+        position: absolute;
+        left:-700px;
+        top:1000px;
           font-size: 12px;
       }
 
@@ -88,6 +88,10 @@
 
       .info .info-item1 h1{
         font-size: 20px;
+      }
+      .info .info-item2{
+
+        padding-right:20px;
       }
       .info h2{
         font-size: 18px;
@@ -172,12 +176,17 @@
 
 
       /* PROJECT PAGE */
+      .project .project-info{
+        display: grid;
+        grid-template-columns:1fr;
+  
+      }
       .project .title{
         width: 300px;
         position: relative;
          top:10px;
          left:-220px;
-         margin-bottom: 10px;
+         margin-bottom: 30px;
          line-height: 25px;
       }
      .project-info{
@@ -186,9 +195,9 @@
          left:-140px;
      }
      .project-info .item{
-         height: 380px;
+        height: 430px;
         max-width: 250px;
-        margin:30px 70px;
+        margin:10px 70px;
     }
     .project-info .item img{
         width: 250px;
@@ -197,14 +206,16 @@
    }
 
    .project button{
-       margin-left:120px;
-       width: 150px;
-       letter-spacing: 5px;
+      font-size: 15px;
+       margin-left:100px;
+       width: 100px;
+       margin-bottom: 40px;
+     
    }
 
 
 
-     .project-info .item1{
+     /* .project-info .item1{
          position: absolute;
      }
      .project-info .item2{
@@ -226,7 +237,7 @@
         position: absolute;
         top:1920px;
 
-    }
+    } */
 
 
 
@@ -244,7 +255,7 @@
 
     .bar{
       position: relative;
-      top:120px;
+      top:280px;
       left:60px;
     }
 

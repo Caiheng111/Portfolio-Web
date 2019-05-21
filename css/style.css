@@ -172,7 +172,7 @@ img{
 .info{
   position: relative;
   top:100px;
-  left:160px;
+  left:140px;
 }
 .info-item1{
   margin-bottom:30px;
@@ -185,21 +185,25 @@ img{
 }
 
 
-.info-item3{
-  margin-top:20px;
-}
-.info-item3 h4{
-  margin-bottom: 10px;
+
+.info-item2 h4{
+  line-height: 25px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 18px;
   font-family: 'Noto Sans JP', sans-serif;
   color:#FF3E55;
   margin-top:10px;
 }
-.info-item3 span{
+
+.info-item2 h5{
+  line-height: 25px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
   font-family: 'Noto Sans JP', sans-serif;
-  color: #F7F6F5;
-  font-size: 18px;
+  color:#F7F6F5;
+  margin-top:10px;
 }
 
 .info h1{
@@ -250,7 +254,9 @@ img{
 
 
 /* SKILL PAGE */
+
 .skill-info{
+  height:auto;
   position: relative;
   top:120px;
   left:750px;
@@ -280,7 +286,7 @@ img{
 
 
 .bar{
-  margin-top:50px;
+  margin-top:-20px;
   margin-bottom: 50px;
   position: relative;
   top:-680px;
@@ -368,7 +374,7 @@ img{
 
 .skill-ball{
   position: relative;
-  bottom:100px;
+  bottom:150px;
   left:250px;
 }
 
@@ -589,14 +595,14 @@ img{
 
 .project .title{
   margin-left:120px;
-  margin-bottom:60px;
+  margin-bottom:80px;
   text-align: center;
   width: 900px;
 }
 .project .title h2{
   font-family: 'Noto Sans JP', sans-serif;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 20px;
   color:#F7F6F5;
  
 }
@@ -613,7 +619,7 @@ img{
 
 
 .item{ 
-  /* background-color: rgb(240, 237, 234); */
+  padding:0;
   text-align: center;
   border-radius: 6px;
   border:1px solid #F7F6F5;
@@ -622,6 +628,11 @@ img{
   width: 200px;
   height: 140px;
 
+}
+
+.project .item-info{
+  padding:10px;
+  box-sizing: border-box;
 }
 
 
@@ -662,26 +673,40 @@ img{
   text-decoration: none;
 }
 
-.project button{
-  margin-left:50px;
-  margin-top:30px;
+
+.project .code{
+  float: left;
+  margin-left:15px;
+  margin-top:20px;
   outline:0;
   background:none;
   border:1px solid #F7F6F5;
   display: block;
   height:30px;
-  width: 100px;
+  width: 90px;
   color: #FF3E55;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 12px;
   border-radius: 3px;
 }
 
-/* .project-item:hover .item{
-  transition: all .3s ease-in; 
-  background-color: #FF3E55;
- 
-} */
+.project button{
+  float: left;
+  margin-left:12px;
+  margin-top:20px;
+  outline:0;
+  background:none;
+  border:1px solid #F7F6F5;
+  display: block;
+  height:30px;
+  width: 80px;
+  color: #FF3E55;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+
 
 
 
