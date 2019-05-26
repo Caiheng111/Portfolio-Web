@@ -511,12 +511,13 @@ img{
 /* CONTACT PAGE */
 
 .contact-info{
+ 
   position: absolute;
-  left:100px;
+  left:80px;
   top:230px;
   display: grid;
   grid-template-columns: 1fr 1fr auto; 
-  grid-auto-rows: 100px;
+  grid-column-gap: 3px;
 
  
 }
@@ -532,6 +533,7 @@ img{
 .contact-info .info-item h5{
   font-size: 15px;
   margin-top:10px;
+  margin-left:30px;
   color:#FF3E55 !important;
 }
 .info-message{
@@ -566,6 +568,7 @@ img{
   color:#F7F6F5;
   cursor: pointer;
 }
+
 
 
 .info-message .message{
